@@ -1,4 +1,4 @@
-package talks.foazo.com.subhloansproject.ui;
+package com.subhloansproject.main.ui;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import talks.foazo.com.subhloansproject.R;
+import com.subhloansproject.main.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package talks.foazo.com.subhloansproject.utils;
+package com.subhloansproject.main.utils;
 
 public class UrlManager {
     public static String about_url = Constants.BASE_URL + "about.html";

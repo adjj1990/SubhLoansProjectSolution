@@ -1,10 +1,9 @@
-package talks.foazo.com.subhloansproject.data.network;
+package com.subhloansproject.main.network;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -40,7 +39,7 @@ public class Connection {
     public String performGetCall(String uri){
         try {
             URL url = new URL(uri);
-            Log.e(">>>>>>requestURL>>",uri);
+//            Log.e(">>>>>>requestURL>>",uri);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(con.getInputStream()));
 

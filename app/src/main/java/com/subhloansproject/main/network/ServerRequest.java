@@ -1,12 +1,11 @@
-package talks.foazo.com.subhloansproject.data.network;
+package com.subhloansproject.main.network;
 
 import android.content.Context;
-import android.util.Log;
 
 import java.util.HashMap;
 
-import talks.foazo.com.subhloansproject.ui.onDemand.GenericTaskListener;
-import talks.foazo.com.subhloansproject.utils.Constants;
+import com.subhloansproject.main.ui.onDemand.GenericTaskListener;
+import com.subhloansproject.main.utils.Constants;
 
 public class ServerRequest {
 
@@ -22,7 +21,7 @@ public class ServerRequest {
 
                 public void onSuccess(String success) {
                     listener.updateResult(success, token);
-                    Log.e("SERVER", success);
+//                    Log.e("SERVER", success);
                 }
                 public void onFailure(String error) {
 

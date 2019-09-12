@@ -1,17 +1,15 @@
-package talks.foazo.com.subhloansproject.data.network;
+package com.subhloansproject.main.network;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.widget.Toast;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.HashMap;
 
-import talks.foazo.com.subhloansproject.R;
+import com.subhloansproject.main.R;
 
 
 public class GenericNewAsynTask extends AsyncTask<String, Void, String> {

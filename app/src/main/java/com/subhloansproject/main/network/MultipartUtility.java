@@ -1,4 +1,4 @@
-package talks.foazo.com.subhloansproject.data.network;
+package com.subhloansproject.main.network;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,10 +11,6 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-
-/**
- * Created by jbmm0007 on 11/14/2016.
- */
 
 public class MultipartUtility {
 

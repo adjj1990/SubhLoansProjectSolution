@@ -1,26 +1,22 @@
-package talks.foazo.com.subhloansproject;
+package com.subhloansproject.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.app.FragmentTransaction;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.HashMap;
 
-import talks.foazo.com.subhloansproject.data.network.ServerRequest;
-import talks.foazo.com.subhloansproject.ui.everyTenthCharacterFragment;
-import talks.foazo.com.subhloansproject.ui.onDemand.GenericTaskListener;
-import talks.foazo.com.subhloansproject.ui.tenthCharacterFragment;
-import talks.foazo.com.subhloansproject.ui.wordCounterFragment;
-import talks.foazo.com.subhloansproject.utils.UrlManager;
+import com.subhloansproject.main.R;
+import com.subhloansproject.main.network.ServerRequest;
+import com.subhloansproject.main.ui.everyTenthCharacterFragment;
+import com.subhloansproject.main.ui.onDemand.GenericTaskListener;
+import com.subhloansproject.main.ui.tenthCharacterFragment;
+import com.subhloansproject.main.ui.wordCounterFragment;
+import com.subhloansproject.main.utils.UrlManager;
 
 public class MainActivity extends AppCompatActivity implements GenericTaskListener {
 
